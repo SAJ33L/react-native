@@ -40,6 +40,14 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+
+      <Tabs.Screen
+        name="timeSheet"
+        options={{
+          title: 'TimeSheet',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="watch-later.fill" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
